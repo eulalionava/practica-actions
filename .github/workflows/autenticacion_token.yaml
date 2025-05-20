@@ -1,4 +1,6 @@
 name: Open new issue
+run-name: Autenticacion GITHUB_TOKEN
+
 on: workflow_dispatch
 
 jobs:

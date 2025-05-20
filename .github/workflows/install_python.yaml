@@ -1,4 +1,5 @@
 name: Python package
+run-name: Instacion python
 
 on: [push]
 
