@@ -2,8 +2,8 @@ name: Publish Docker image
 run-name: Publicando con docker
 
 on:
-  push:
-    branches: ['develop']
+  branches:
+    - develop
 
 jobs:
   push_to_registry:
