@@ -11,7 +11,6 @@ jobs:
 
     - uses: azure/login@v1
       with:
-        auth-type: IDENTITY
         creds: ${{ secrets.AZURE_CREDENTIANS }}
 
     - name: Azure CLI script
